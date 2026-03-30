@@ -10,10 +10,10 @@
     <div id="clue">Press New Game to Play!</div>
     
     <div>
-        <input type="text" size="1" maxlength="1">
-        <button>Guess</button>
+        <input id="guess" type="text" size="1" maxlength="1">
+        <button onclick="guessLetter();">Guess</button>
     </div>
-
-    <div id="newgamearea"><button>New Game</button></div>
+    <div id="guesses"></div>
+    <div id="newgamearea"><button onclick="newGame();">New Game</button></div>
 </body>
 </html>
