@@ -46,6 +46,7 @@ let guessLetter = function(){
 
     }
     guesses+=letter;
+    input.value = "";
     updatePage();
 
 }
